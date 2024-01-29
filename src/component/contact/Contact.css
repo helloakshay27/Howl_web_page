@@ -1,0 +1,139 @@
+:root {
+  --main-font-size: 16px;
+}
+
+.contact_headline {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem; /* 40px */
+}
+
+
+.talk_option {
+  color: #b056be;
+  border-bottom: 5px solid transparent;
+  border-image: radial-gradient(circle, rgba(63, 94, 251, 1) 16%, rgba(176, 86, 190, 1) 45%);
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+.contact_container {
+  background-color: #b056be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.125rem 0.625rem; /* 50px 10px */
+}
+
+.contact_container h2 {
+  width: 15.625rem; /* 250px */
+  font-size: 1.875rem; /* 30px */
+  color: #ffffff;
+}
+
+.arrow {
+  margin: 0;
+  font-size: 2.5rem; /* 40px */
+  cursor: pointer;
+}
+
+.contact_image img {
+  width: 13.75rem; /* 220px */
+  height: 13.75rem; /* 220px */
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact_headline {
+    font-size: 2rem; /* 40px */
+  }
+
+  .contact_image img {
+    width: 12.5rem; /* 200px */
+    height: 12.5rem; /* 200px */
+  }
+
+  .contact_container h2 {
+    width: 15rem; /* 240px */
+    font-size: 1.5625rem; /* 25px */
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_headline {
+    font-size: 2rem; /* 40px */
+    height: 3.75rem; /* 75px */
+  }
+
+  .contact_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_container h2 {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow {
+    margin-left: 0.625rem; /* 10px */
+    font-size: 2.5rem; /* 40px */
+    cursor: pointer;
+  }
+
+  .contact_image img {
+    width: 12.5rem; /* 200px */
+    height: 12.5rem; /* 200px */
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact_headline {
+    font-size: 1.875rem; /* 30px */
+  }
+
+  .contact_container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .contact_container h2 {
+    width: fit-content;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow {
+    margin-left: 0.625rem; /* 10px */
+    font-size: 2.5rem; /* 40px */
+    cursor: pointer;
+  }
+
+  .contact_image img {
+    width: 9.375rem; /* 150px */
+    height: 9.375rem; /* 150px */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact_headline {
+    font-size: 1.5625rem; /* 25px */
+  }
+
+  .contact_container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .contact_container h2 {
+    font-size: 1.25rem; /* 20px */
+  }
+}
