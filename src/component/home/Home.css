@@ -49,6 +49,8 @@ font-family: "Montserrat";
 }
 
 .main_right_container {
+  align-items: center;
+
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -149,6 +151,11 @@ font-family: "Montserrat";
   }
 }
 @media screen and (max-width: 425px) {
+  .home_img_2 {
+ 
+    left: 20%;
+    transform: translateX(-50%);
+}
   main {
     height: fit-content;
     padding: 0%;
@@ -172,7 +179,7 @@ font-family: "Montserrat";
   }
 
   .home_headline_2 {
-    font-size: 80px;
+    font-size: 4.2rem;
   }
 
   .home_headline_3 {
@@ -188,6 +195,7 @@ font-family: "Montserrat";
   .heading_2_container {
     width: 100%;
     left: 2%;
+    top: 5%;
     position: relative;
   }
 
