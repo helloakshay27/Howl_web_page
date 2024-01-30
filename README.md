@@ -1,3 +1,12 @@
+# Task Management App
+
+* "HOWL Digital Web Application" project with React.
+
+## Live Demo
+
+[https://howl-web-page.vercel.app/](https://howl-web-page.vercel.app/)
+
+
 # HOWL Digital Web Developer Assignment
 
 This repository contains the solution for the HOWL Digital Web Developer Assignment. The assignment involved creating a web page based on a reference design using React and demonstrating proficiency in version control with Git and GitHub.
@@ -30,7 +39,7 @@ To get the project up and running locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/pravinsingh-rajput/Howl-Clone.git
+   git clone https://github.com/helloakshay27/Howl_web_page.git
    ```
 
 2. Navigate to the project directory:
@@ -62,15 +71,7 @@ The web page is designed to match the reference design and is responsive to vari
 - React.js
 - JavaScript (ES6+)
 - HTML/CSS
+- Aos (Animation)
 - Git and GitHub
-- GitHub Pages (for hosting)
+- Versel(for hosting)
 
-## License
-
-This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). This license allows you to:
-
-- Share — copy and redistribute the material in any medium or format.
-- Adapt — remix, transform, and build upon the material.
-- The licensor cannot revoke these freedoms as long as you follow the license terms.
-
-Please refer to the [LICENSE](LICENSE) file for more details.
