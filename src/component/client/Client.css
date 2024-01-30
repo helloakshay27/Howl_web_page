@@ -3,16 +3,18 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 83%,
     rgba(240, 240, 240, 1) 93%
-  );
+  ); */
 }
 
 .client_headline {
-  color: #b056be;
+  color: #bd72d3;
+font-weight: 700;
+font-family: "Montserrat";
   font-size: 3rem;
   margin-left: 10%;
 }
@@ -21,15 +23,25 @@
   height: fit-content;
   display: grid;
   overflow: hidden;
-  height: auto;
-  grid-template-columns: repeat(7, minmax(150px, 1fr));
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(7, minmax(150px, 1fr)) !important;
+  grid-template-rows: repeat(2, auto) !important;
   gap: 10px;
 }
 
+/* Responsive Styles for Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Responsive Styles for Phones */
+@media only screen and (max-width: 480px) {
+
+}
+
+
 @media screen and (max-width: 1024px) {
   .client_container {
-    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-template-columns: auto auto auto auto !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -47,9 +59,41 @@
     grid-template-columns: repeat(4, minmax(150px, 1fr));
   }
 }
+
+@media screen and (max-width: 768px) {
+  .profileCard {
+    overflow: hidden;
+    margin: 2px;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: auto !important;
+  }
+
+
+
+.container{
+  max-width: fit-content !important;
+}
+}
+@media screen and (max-width: 450px) {
+
+  .client_container {
+    grid-template-columns: repeat(1, minmax(150px, 1fr)) !important;
+    }
+}
+
 @media screen and (max-width: 425px) {
+
+  /* .contact_image {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+} */
+
   .clientpage {
-    height: 460px;
+    margin-top: 1.5rem !important;
+    height: auto;
     padding: 0px 2%;
   }
   .client_headline {
@@ -58,8 +102,13 @@
     font-size: 30px;
     margin-left: 0px;
   }
-  .client_container {
-    grid-template-columns: repeat(3, minmax(120px, 1fr));
-    gap: 5px;
-  }
+
+}
+@media screen and (max-width: 1200px) {
+
+.flats-container{
+
+    grid-template-columns: repeat(30, 90px) !important;
+    gap: 8px !important;
+}
 }

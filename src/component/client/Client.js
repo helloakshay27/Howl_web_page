@@ -13,7 +13,7 @@ const Client = () => {
   });
 
   return (
-    <div className="clientpage my-3 container">
+    <div className="clientpage mt-5 mb-4  container">
       <h2 className="client_headline my-2 mb-3">Clients we work with</h2>
       <div className="client_container">
         {modifiedClientImageUrls.map((url, index) => (

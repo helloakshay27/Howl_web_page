@@ -13,7 +13,27 @@ height: 200px;
   height: auto;
 }
 
+@media screen and (max-width: 426px) {
+
+  .show-tab{
+    display: block;
+  }
+
+  .show-mob{
+    display: none;
+  }
+
+}
+
 @media screen and (max-width: 425px) {
+
+  .show-tab{
+    display: none;
+  }
+
+  .show-mob{
+    display: block;
+  }
   .profileCard {
     width: 100%;
     height: auto;
