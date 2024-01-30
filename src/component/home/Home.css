@@ -21,6 +21,10 @@ main {
 }
 
 .home_headline_2 {
+  color: #bd72d3;
+font-weight: 800;
+font-family: "Montserrat";
+
   margin: 0px;
   color: #ffff;
   width: fit-content;
@@ -29,6 +33,8 @@ main {
     -2px -2px 0 #b056be;
 }
 .heading_2_container {
+  z-index: 22;
+
   width: 950px;
   position: absolute;
   background-color: transparent;
@@ -128,10 +134,10 @@ main {
     left: 4%;
 
     & :nth-child(2) {
-      padding-left: 0%;
+      padding-left: 2%;
     }
     & :nth-child(3) {
-      padding-left: 0%;
+      padding-left: 10%;
     }
   }
 
@@ -170,6 +176,7 @@ main {
   }
 
   .home_headline_3 {
+    margin-top: 1rem;
     margin-right: 0px;
   }
 
