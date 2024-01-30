@@ -1,4 +1,4 @@
-# Task Management App
+# HOWL Digital Web Application
 
 * "HOWL Digital Web Application" project with React.
 
